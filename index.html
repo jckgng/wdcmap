@@ -129,7 +129,13 @@
               },
               'paint': {
                 'circle-radius': 5,
-                'circle-color': 'rgb(171, 33)'
+                'circle-color': {
+                  property: 'Season',
+                  stops: [
+                    ['Spring', '#f1f075'],
+                    ['Fall', '#e55e5e']
+                  ]
+}
               }
             });
             
